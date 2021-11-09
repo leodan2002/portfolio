@@ -1,6 +1,6 @@
 import React from "react";
-import Intro from "../components/intro/intro";
-import Skills from "../components/skill/skill";
+import Intro from "../../components/Introduction/Introduction";
+import Skills from "../../components/ResumeCard/ResumeCard";
 
 function Home(){
     return (
