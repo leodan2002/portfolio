@@ -23,6 +23,8 @@
 	font-size: 30px;
 	font-weight: 300;
 	padding-bottom: 6vh;
+	text-align: center;
+	padding-top: 20px;
 }
 
 .languages {
@@ -49,7 +51,7 @@
 }
 
 .media-icon {
-	color: #52ab98;
+	color: #E8A87C;
 	width: 100px;
 	height: auto;
 	transition: all 100ms ease;

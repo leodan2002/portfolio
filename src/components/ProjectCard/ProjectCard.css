@@ -1,0 +1,12 @@
+.project-card-image{
+    width: 30vw;
+}
+
+.project-card-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.tool-image{
+    height: 40px;
+}

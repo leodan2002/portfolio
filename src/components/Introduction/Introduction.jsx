@@ -1,14 +1,14 @@
 import "./Introduction.css";
-import { FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 import { IconContext } from "react-icons/";
 
 const Introduction = () => {
 	return (
 		<>
-			<h1 className="name">An Hoang</h1>
+			<h1 className="name">Software Developer</h1>
 			<div className="software-engineer">
 				{" "}
-				&gt; Hi! I'm a Computer Science Student <div id="blinking-cursor"></div>{" "}
+				 Computer Science student at Ryerson University. <br />Passionate about web development and software engineer. 
 			</div>
 			<p className="description-text white-border">
 				Check out the code of this website using React.js:{" "}
@@ -25,7 +25,7 @@ const Introduction = () => {
 			<div className="media-link-wrapper">
 				<IconContext.Provider value={{ className: "media-icon" }}>
 					<a
-						rel="noreferrer"
+						rel="noreferrer" // open things in a new thing
 						target="_blank"
 						className="media-link"
 						href="https://github.com/leodan2002"
@@ -41,6 +41,16 @@ const Introduction = () => {
 					>
 						<FaLinkedin />
 						<p className="icon-description">LinkedIn</p>
+					</a>
+					<a
+						// rel="noreferrer"
+						// target="_blank"
+						className="media-link"
+						href="an.hoang@ryerson.ca"
+						// type="email"
+					>
+						<FaEnvelope />
+						<p className="icon-description">Email</p>
 					</a>
 				</IconContext.Provider>
 			</div>
