@@ -1,5 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+}
+
+body {
+	background-color: #2b6777;
+}
+
+.wrapper {
+	background-color: #2b6777;
+}
+
+.app-wrapper {
+	margin-bottom: 60px;
+}
+
+.description-text {
+	color: #ffffffff;
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	word-spacing: 4px;
+	font-weight: 300;
+}
+
+.white-border {
+	display: table;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	font-size: 20px;
+	padding: 15px 25px;
+	border: 1px solid white;
+	border-radius: 5px;
+	line-height: 22px;
+}
+
+.inline-link {
+	color: #52ab98;
+	font-size: 20px;
+	transition: all 100ms ease;
+}
+
+.inline-link:hover {
+	font-size: 21px;
+	transition: all 100ms ease;
+}
+
+.page-header {
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 60px;
+	margin: 20px;
+	margin-top: 40px;
+	font-family: "Courier Prime", monospace;
+	font-weight: 200;
+	text-align: center;
+}
+
+.card-shadow {
+	box-shadow: 0px 0px 8px 0.5px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 700px) {
+	.page-header {
+		font-size: 50px;
+	}
+
+	.description-text {
+		font-size: 16px;
+		word-spacing: 3px;
+		font-weight: 300;
+	}
+
+	.white-border {
+		font-size: 16px;
+		padding: 12px 22px;
+		line-height: 20px;
+	}
+
+	.inline-link {
+		font-size: 16px;
+	}
+
+	.inline-link:hover {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.page-header {
+		font-size: 40px;
+	}
+
+	.description-text {
+		font-size: 14px;
+		word-spacing: 3px;
+		font-weight: 300;
+	}
+
+	.white-border {
+		font-size: 14px;
+		padding: 10px 16px;
+		line-height: 14px;
+	}
+
+	.inline-link {
+		font-size: 14px;
+	}
+
+	.inline-link:hover {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.page-header {
+		font-size: 35px;
+	}
+
+	.description-text {
+		word-spacing: 3px;
+		font-weight: 300;
+	}
+
+	.white-border {
+		font-size: 12px;
+		padding: 10px 16px;
+		line-height: 14px;
+	}
+
+	.inline-link {
+		font-size: 14px;
+	}
+
+	.inline-link:hover {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
 }

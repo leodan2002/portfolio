@@ -1,0 +1,246 @@
+.name {
+	font-family: "Courier Prime", monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	padding: 10px;
+	padding-top: 10vh;
+	margin: 10px;
+	font-size: 6em;
+	font-weight: 300;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+}
+
+.software-engineer {
+	font-family: "Courier Prime", monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #f2f2f2;
+	font-size: 30px;
+	font-weight: 300;
+	padding-bottom: 6vh;
+}
+
+.languages {
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 30px;
+	font-family: "Lato", sans-serif;
+	font-weight: 200;
+	word-spacing: 10px;
+	margin-bottom: 20px;
+}
+
+.media-link-wrapper {
+	display: flex;
+	justify-content: center;
+	height: 130px;
+	margin-top: 4vh;
+}
+
+.media-link {
+	margin: 10px;
+	margin-top: 20px;
+}
+
+.media-icon {
+	color: #52ab98;
+	width: 100px;
+	height: auto;
+	transition: all 100ms ease;
+}
+
+.media-icon:hover {
+	width: 120px;
+	height: auto;
+	transition: all 100ms ease;
+}
+
+.icon-description {
+	font-family: "Courier Prime", monospace;
+	text-decoration: none;
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 16px;
+}
+
+/* blinking cursor https://codepen.io/delgar/pen/rvRvZM*/
+#blinking-cursor {
+	background: #f2f2f2;
+	line-height: 17px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	animation: blink 1s infinite;
+	width: 15px;
+	height: 24px;
+}
+
+@keyframes blink {
+	0% {
+		background: rgba(255, 255, 255, 0);
+	}
+
+	35% {
+		background: rgba(255, 255, 255, 0);
+	}
+
+	50% {
+		background: #f2f2f2;
+	}
+
+	85% {
+		background: #f2f2f2;
+	}
+
+	100% {
+		background: rgba(255, 255, 255, 0);
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.name {
+		font-size: 5em;
+	}
+
+	.software-engineer {
+		font-size: 25px;
+		padding-bottom: 40px;
+	}
+
+	.self-description {
+		width: 80vw;
+		padding: 15px;
+		font-size: 15px;
+		border-radius: 8px;
+		box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.5);
+	}
+
+	.media-link-wrapper {
+		height: 90px;
+	}
+
+	.media-icon {
+		width: 80px;
+	}
+
+	.media-icon:hover {
+		width: 95px;
+	}
+
+	#blinking-cursor {
+		margin-left: 8px;
+		margin-bottom: 3px;
+		width: 10px;
+		height: 20px;
+	}
+
+	.languages {
+		font-size: 24px;
+		font-family: "Lato", sans-serif;
+		font-weight: 200;
+		word-spacing: 6px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.name {
+		padding-top: 30px;
+		font-size: 4em;
+	}
+
+	.software-engineer {
+		font-size: 20px;
+		padding-bottom: 30px;
+	}
+
+	#blinking-cursor {
+		margin-left: 6px;
+		margin-bottom: 3px;
+		width: 8px;
+		height: 16px;
+	}
+
+	.self-description {
+		width: 90vw;
+		padding: 10px;
+		font-size: 12px;
+		border-radius: 5px;
+	}
+
+	.media-link-wrapper {
+		height: 80px;
+	}
+
+	.media-icon {
+		width: 70px;
+	}
+
+	.media-icon:hover {
+		width: 85px;
+	}
+
+	.languages {
+		font-size: 20px;
+		font-family: "Lato", sans-serif;
+		font-weight: 200;
+		word-spacing: 4px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.name {
+		padding-top: 35px;
+		font-size: 3em;
+	}
+
+	.software-engineer {
+		font-size: 18px;
+		padding-bottom: 30px;
+	}
+
+	.self-description {
+		width: 95vw;
+		padding: 8px;
+		font-size: 16px;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+
+	.media-link-wrapper {
+		height: 70px;
+	}
+
+	.media-icon {
+		width: 60px;
+	}
+
+	.media-icon:hover {
+		width: 75px;
+	}
+
+	.languages {
+		font-size: 16px;
+		font-family: "Lato", sans-serif;
+		font-weight: 200;
+		word-spacing: 3px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.name {
+		padding-top: 25px;
+		font-size: 2.5em;
+	}
+
+	.self-description {
+		font-size: 14px;
+	}
+}
