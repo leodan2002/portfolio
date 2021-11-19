@@ -42,12 +42,11 @@ const Introduction = () => {
 						<FaLinkedin />
 						<p className="icon-description">LinkedIn</p>
 					</a>
-					<a
-						// rel="noreferrer"
-						// target="_blank"
+					<a				
+						rel="noreferrer"
+						target="_blank"		
 						className="media-link"
-						href="an.hoang@ryerson.ca"
-						// type="email"
+						href="mailto:ansofiathefirst@gmail.com"					
 					>
 						<FaEnvelope />
 						<p className="icon-description">Email</p>
