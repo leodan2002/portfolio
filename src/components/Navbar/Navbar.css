@@ -1,3 +1,5 @@
+
+
 .logo_image {
 
 	width: 25vw;
@@ -12,22 +14,30 @@
 }
 
 
+
+
 .navigation-wrapper{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	border-bottom: 5px solid #ffffff;
+	padding: 10px;
 }
 
 .navigation-buttons{
 	width: 40vw;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
-.page-button{
+/* .page-button{
 	background-color: transparent;
 	border: none;
+} */
 
+.color-link{
+	color: #E8A87C;
 }
 
 .page-button:hover{

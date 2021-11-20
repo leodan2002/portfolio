@@ -1,0 +1,49 @@
+.contact-form {
+  width: 50vw;
+  background-color: #58999e;
+  margin: 0 auto;
+  box-shadow: 0 5px 25px black;
+  padding: 40px;
+}
+
+.contact-title {
+  font-family: "Courier Prime", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2f2f2;
+  font-size: 50px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-input {
+  height: 30px;
+  padding: 8px;
+}
+
+.contact-message {
+  height: 250px;
+  padding: 8px;
+}
+
+.contact-send-button {
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  margin-left: 250px;
+  background-color: #e8a87c;
+  color: white;
+}
+
+.contact-label-title {
+  font-size: 20px;
+  color: white;
+}

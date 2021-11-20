@@ -5,6 +5,7 @@ import ProjectPage from './pages/ProjectPage/ProjectPage'
 import ResumePage from './pages/ResumePage/ResumePage'
 import ContactPage from './pages/ContactPage/ContactPage';
 import Navbar from './components/Navbar/Navbar';
+import Skills from './components/ResumeCard/ResumeCard';
  
 
 
@@ -17,6 +18,11 @@ function App() {
           <Route 
             path="/"
             element={<Home/>}
+            exact
+          />
+          <Route 
+            path="/skills"
+            element={<Skills/>}
             exact
           />
           <Route 
