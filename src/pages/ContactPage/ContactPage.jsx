@@ -24,7 +24,7 @@ const ContactPage = () => {
 
   return (
     <div className="contact-form-wrapper">
-      <h1 className="contact-title">Send Email!</h1>
+      <h1 className="page-header">Send Email!</h1>
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
         <div className="contact-label">
           <label className="contact-label-title">Your Name</label>

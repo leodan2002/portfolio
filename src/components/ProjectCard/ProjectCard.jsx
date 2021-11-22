@@ -1,5 +1,6 @@
 import React from 'react'
 import "./ProjectCard.css"
+import { FaExternalLinkAlt, FaGithub} from "react-icons/fa";
 
 function ProjectCard(props) {
     const image = props.image;
@@ -14,20 +15,23 @@ function ProjectCard(props) {
                 <img className="project-card-image" src={image}/>
             </div>
             <div className="card-right">
-                <h3>{heading}</h3>
-                <div>
+                <h3 className="project-title">{heading}</h3>
+                <div className="made-with-section">
+                    <h3 className="made-with-text">Made with: </h3>
                     {
                         toolsList.map((tool) => {
                             return <img className="tool-image" src={tool} />
                         })
                     }
                 </div>
-                <p>{descript}</p>
-                <button>
-                    <a href={demoLink}>Demo Link</a>
+                <p className="descript-text">{descript}</p>
+                <button className="link-projects-button">
+                    <FaExternalLinkAlt />
+                    <a className="link-button-text" href={demoLink}>Live</a>
                 </button>
-                <button>
-                    <a href={codeLink}>CodeLink</a>
+                <button className="link-projects-button">
+                    <FaGithub />
+                    <a className="link-button-text" href={codeLink}>CodeLink</a>
                 </button>
             </div>            
         </div>

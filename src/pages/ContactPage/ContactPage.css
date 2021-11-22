@@ -7,18 +7,6 @@
   border-radius: 10px;
 }
 
-.contact-title {
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  font-size: 60px;
-  margin: 20px;
-  margin-top: 40px;
-  font-family: "Courier Prime", monospace;
-  font-weight: 200;
-  text-align: center;
-}
-
 .contact-label {
   display: flex;
   flex-direction: column;
@@ -46,11 +34,9 @@
   margin-left: 250px;
   background-color: #2b6777;
   color: white;
-
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
-  font-family: "Courier Prime", monospace;
 }
 
 .contact-send-button:hover {
