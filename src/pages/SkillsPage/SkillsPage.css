@@ -1,0 +1,32 @@
+.skill-icons-wrapper {
+  margin: auto;
+  max-width: 1000px;
+}
+
+.skill-icons {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.skill-description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 19px;
+}
+
+.skill-icons-li {
+  margin: 2rem 3rem 3rem 0.5rem;
+}
+
+.skill-icons-li:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 100ms ease;
+}
