@@ -1,11 +1,18 @@
-import React from "react";
+import React from 'react'
+import ResumeImage from '../../Images/resume.png'
+import "./ResumeCard.css"
 
-function Skills() {
+
+function ResumeCard() {
     return (
-        <div>
-            <h1>Skills</h1>
-        </div>
+        <>
+            <div>
+                <div className="resume-wrapper">
+                    <img className="resume-img" src={ResumeImage} alt="resume" />
+                </div>
+            </div>
+        </>
     )
 }
 
-export default Skills
+export default ResumeCard

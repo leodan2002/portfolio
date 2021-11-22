@@ -1,16 +1,20 @@
-import React from 'react'
-import Resume from '../../Images/resume.png'
-import "./ResumePage.css"
+import "./ResumePage.css";
+import ResumeCard from "../../components/ResumeCard/ResumeCard";
+import ResumePdf from "../../Images/resume.pdf";
 
 function ResumePage() {
-    return (
-        <div>
-            <h1>Resume Page</h1>
-            <div className="resume-wrapper">
-                <img src={Resume} alt="resume" />
-            </div>
-        </div>
-    )
+	return (
+		<>
+			<h1 className="page-header">My Resume!</h1>
+			<p className="description-text white-border">
+				Link to download my resume here:&nbsp;
+				<a className="inline-link" href={ResumePdf} download="Resume_An_Hoang.pdf">
+					Resume
+				</a>
+			</p>
+			<ResumeCard />
+		</>
+	);
 }
 
-export default ResumePage
+export default ResumePage;
