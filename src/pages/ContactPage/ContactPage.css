@@ -42,6 +42,7 @@
 .contact-send-button:hover {
   font-size: 26px;
   transition: all 100ms ease;
+  text-decoration: underline;
 }
 
 .contact-label-title {
