@@ -18,6 +18,14 @@ function ProjectPage() {
                 codeLink="https://github.com/leodan2002" 
                 demoLink="https://github.com/leodan2002"
             />
+            < ProjectCard 
+                image={CovidStater} 
+                heading="Covid Tracker"  
+                toolsList={[ReactLogo, JavaScriptLogo]} 
+                descript="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates porro laboriosam delectus eos reiciendis inventore laudantium quos quibusdam atque placeat!"
+                codeLink="https://github.com/leodan2002" 
+                demoLink="https://github.com/leodan2002"
+            />
         </div>
         
     )

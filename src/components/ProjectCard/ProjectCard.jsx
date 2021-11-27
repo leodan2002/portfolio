@@ -12,7 +12,7 @@ function ProjectCard(props) {
     return (
         <div className="project-card-wrapper">
             <div className="card-left">
-                <img className="project-card-image" src={image}/>
+                <img className="project-card-image" src={image} alt="skill"/>
             </div>
             <div className="card-right">
                 <h3 className="project-title">{heading}</h3>
@@ -20,7 +20,7 @@ function ProjectCard(props) {
                     <h3 className="made-with-text">Made with: </h3>
                     {
                         toolsList.map((tool) => {
-                            return <img className="tool-image" src={tool} />
+                            return <img className="tool-image" src={tool} alt="tool" />
                         })
                     }
                 </div>
