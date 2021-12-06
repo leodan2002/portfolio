@@ -1,5 +1,8 @@
 .logo_image {
-  width: 25vw;
+  text-decoration: none;
+  color: #e8a87c;
+  font-size: 50px;
+  margin-left: 50px; 
 }
 
 .navbar {
@@ -58,7 +61,7 @@
 
 @media only screen and (max-width: 900px) {
   .link-wrapper {
-    width: 45%;
+    width: 60%;
   }
   .small-link {
     font-size: 18px;
@@ -71,11 +74,15 @@
   .big-link {
     font-size: 28px;
   }
+  .logo_image {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
   .logo_image {
-    width: 50vw;
+    
+    font-size: 30px;
   }
   .line {
     width: 30px;

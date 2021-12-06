@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import LogoName from '../../Images/logo_name.png'
 import { FaHome, FaTools, FaCode, FaFile, FaEnvelope} from "react-icons/fa";
 
 const Navbar = () => {
@@ -29,8 +28,9 @@ const Navbar = () => {
 		<>
 			<nav className="navbar">
 			<div className="logo">
-				<a href="/">
-					<img className="logo_image" src={LogoName} alt="logo" />
+				<a className="logo_image" href="/">
+					{/* <img className="logo_image" src={LogoName} alt="logo" /> */}
+					&lt;/{">"} | An Hoang
 				</a>
 			</div>
 				<div

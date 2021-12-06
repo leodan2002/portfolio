@@ -63,3 +63,17 @@
   transition: all 100ms ease;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 700px) {
+  .project-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    
+  }
+  .project-card-image {
+    width: 70vw;
+    margin: 0 auto;
+  }
+}
+

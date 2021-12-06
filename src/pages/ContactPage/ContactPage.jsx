@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import "./ContactPage.css" 
+import { FaPaperPlane } from 'react-icons/fa';
 
 const serviceID = 'service_lxqyydi';
 const templatID = 'template_r7i66cc';
@@ -38,8 +39,11 @@ const ContactPage = () => {
           <textarea className="contact-message" name="message" placeholder="enter text..."
           />
         </div>  
+        <div className="submit-wrapper">
+          <button className="contact-send-button" type="submit" value= "Submit"><FaPaperPlane/>Submit</button>
 
-        <input className="contact-send-button" type="submit" value= "Submit" />
+        </div>
+        {/* <input className="contact-send-button" type="submit" value= "Submit" /> */}
     </form>
     </div>
   );
