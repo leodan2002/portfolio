@@ -27,11 +27,11 @@ function ProjectCard(props) {
                 <p className="descript-text">{descript}</p>
                 <button className="link-projects-button">
                     <FaExternalLinkAlt />
-                    <a className="link-button-text" href={demoLink}>Live</a>
+                    <a className="link-button-text" rel="noreferrer" target="_blank" href={demoLink}>Live</a>
                 </button>
                 <button className="link-projects-button">
                     <FaGithub />
-                    <a className="link-button-text" href={codeLink}>CodeLink</a>
+                    <a className="link-button-text" rel="noreferrer" target="_blank" href={codeLink}>CodeLink</a>
                 </button>
             </div>            
         </div>

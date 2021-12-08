@@ -3,6 +3,8 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard'
 import CovidStater from '../../Images/covid_image.png'
 import ReactLogo from '../../Images/react-logo.png'
 import JavaScriptLogo from '../../Images/javascript-logo.png'
+import JavaLogo from '../../Images/java-logo.png'
+import JavaProjectImage from '../../Images/java-project-image.png'
 
 
 
@@ -14,17 +16,17 @@ function ProjectPage() {
                 image={CovidStater} 
                 heading="Covid Tracker"  
                 toolsList={[ReactLogo, JavaScriptLogo]} 
-                descript="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates porro laboriosam delectus eos reiciendis inventore laudantium quos quibusdam atque placeat!"
-                codeLink="https://github.com/leodan2002" 
-                demoLink="https://github.com/leodan2002"
+                descript="A React application that helps track the number of Covid cases across all the provinces in Canada, by fetching the data from the opencovid API."
+                codeLink="https://github.com/leodan2002/covid-tracker" 
+                demoLink="https://github.com/leodan2002/covid-tracker" //Live link
             />
             < ProjectCard 
-                image={CovidStater} 
-                heading="Covid Tracker"  
-                toolsList={[ReactLogo, JavaScriptLogo]} 
-                descript="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates porro laboriosam delectus eos reiciendis inventore laudantium quos quibusdam atque placeat!"
-                codeLink="https://github.com/leodan2002" 
-                demoLink="https://github.com/leodan2002"
+                image={JavaProjectImage} 
+                heading="Flight Reservation System"  
+                toolsList={[JavaLogo]} 
+                descript="An OOP Java-based project that simulates a flight reservation system that can help passengers with many activities including reserving or cancelling seats, printing all the flights, checking if seats are available, sorting aircraft and flights."
+                codeLink="https://github.com/leodan2002/Flight_Reservation_System_P2" 
+                demoLink="https://github.com/leodan2002/Flight_Reservation_System_P2"
             />
         </div>
         
