@@ -18,7 +18,7 @@ function ProjectPage() {
                 toolsList={[ReactLogo, JavaScriptLogo]} 
                 descript="A React application that helps track the number of Covid cases across all the provinces in Canada, by fetching the data from the opencovid API."
                 codeLink="https://github.com/leodan2002/covid-tracker" 
-                demoLink="https://github.com/leodan2002/covid-tracker" //Live link
+                demoLink="https://covid19tracker-anhoang.netlify.app/" //Live link
             />
             < ProjectCard 
                 image={JavaProjectImage} 
